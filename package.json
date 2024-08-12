@@ -1,0 +1,16 @@
+{
+  "name": "segunda__pre-entrega-jul-11-main",
+  "version": "1.0.0",
+  "description": "<h3 align=\"center\">A passionate frontend developer from India</h3>",
+  "main": "index.js",
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "build-css": "sass --no-source-map scss/estilos.scss css/estilos.css",
+  "watch-css": "nodemon -e scss -x \"npm run build-css\""
+},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
